@@ -80,10 +80,10 @@ const Campaigns = ({ fundraisers, setFundraisers }) => {
               className="search-box"
               value={searchQuery}
               onChange={(e) => {
-                console.log(e.target.value);  // Debugging to ensure the value updates
-                setSearchQuery(e.target.value);  // Update state on text input
+                console.log(e.target.value);  
+                setSearchQuery(e.target.value);  
               }}
-              style={{ zIndex: 9999 }} // Ensure it's on top
+              style={{ zIndex: 9999 }} 
             />
             <div className="add-fundraiser-btn-container">
               <button
